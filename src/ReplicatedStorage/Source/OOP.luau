@@ -1,13 +1,13 @@
 --!strict
 const House = require("./House")
+const Wizard = require("./Wizard")
 
 local OOP = {}
 
 function OOP.Start()
 	print("OOP system started")
-	local house1 = House.new(Color3.fromRGB(255, 0, 0), "123 Main St", nil)
-	local house2 = House.new(Color3.fromRGB(0, 255, 0), "456 Elm St", nil)
-
-	house1:SellHouse("Join")
+	local myWizard = Wizard.new("Gandalf", 100, 50)
+	myWizard:TakeDamage(20)
+	myWizard:CastSpell("Fireball")
 end
 return OOP
