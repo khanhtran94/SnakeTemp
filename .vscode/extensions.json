@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "JohnnyMorganz.luau-lsp",          // Luau Language Server for IntelliSense and diagnostics
+    "Kampfkarren.selene-vscode",       // Selene static analysis for Luau
+    "JohnnyMorganz.stylua",            // Stylua formatter for Luau code
+    "PKief.material-icon-theme"        // Material Icon Theme for custom folder icons
+  ]
+}
