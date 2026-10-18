@@ -2,8 +2,8 @@
 const Players = game:GetService("Players")
 const ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-const Network = require("../ReplicatedStorage/Source/Libs/Network")
 const ModuleLoader = require("../ReplicatedStorage/Source/ModuleLoader")
+const Network = require("../ReplicatedStorage/Source/Libs/Network")
 
 Network.startServer()
 ModuleLoader.Init()
