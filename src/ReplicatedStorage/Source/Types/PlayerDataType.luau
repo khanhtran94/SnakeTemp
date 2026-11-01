@@ -3,7 +3,7 @@
 local TypeFunctions = require("../Utility/TypeFunctions")
 
 export type PlayerData = {
-	Placeholder: string,
+	Coins: number,
 }
 
 export type PlayerDataKey = TypeFunctions.EnumOf<PlayerData>

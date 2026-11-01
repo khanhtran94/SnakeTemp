@@ -19,9 +19,9 @@ function OOP.Start()
 	-- local b = { x = 30, y = 40 } :: Point.Point
 	-- print("Point coordinates: (" .. a.x .. ", " .. a.y .. ")")
 	-- print("Point coordinates: (" .. b.x .. ", " .. b.y .. ")")
-	local myCoin = Coin.new(100, "Player1", "coin_001")
-	print("Initial coin value: " .. myCoin.value)
-	myCoin:IncrementValue(50)
-	print("Updated coin value: " .. myCoin.value)
+	--local myCoin = Coin.new(100, "Player1", "coin_001")
+	--print("Initial coin value: " .. myCoin.value)
+	--myCoin:IncrementValue(50)
+	--print("Updated coin value: " .. myCoin.value)
 end
 return OOP
