@@ -15,6 +15,7 @@ export type EnumType = "TeleportFailed"
     | "InitialDataLoaded"
     | "PlayerDataUpdated"
     | "SendNotification"
+    | "RequestGreeting"
 
 local RemoteEventName: StrictEnum.FromEnum<EnumType> = {
 	TeleportFailed = "TeleportFailed",
@@ -23,6 +24,7 @@ local RemoteEventName: StrictEnum.FromEnum<EnumType> = {
     InitialDataLoaded = "InitialDataLoaded",
     PlayerDataUpdated = "PlayerDataUpdated",
     SendNotification = "SendNotification",
+    RequestGreeting = "RequestGreeting",
 }
 
 return RemoteEventName
